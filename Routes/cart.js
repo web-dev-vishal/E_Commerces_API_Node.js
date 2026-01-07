@@ -1,5 +1,5 @@
 import express from "express";
-import { addToCart, clearCart, decreaseProductQty, removeProductFromCart, userCart } from "../Controllers/cart.js";
+import { addToCart, clearCart, decreaseProductQty, removeProductFromCart, userCart } from "../controllers/cart.js";
 import { isAuthenticated } from "../Middlewares/Auth.js";
 
 /**
