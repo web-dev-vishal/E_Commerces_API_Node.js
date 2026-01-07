@@ -45,7 +45,7 @@ app.use(limiter)
 // Define a simple home route to verify the server is running
 // When users access the root URL, they'll get a JSON response
 app.get("/", (req, res) => {
-  res.json({ message: "" });
+  res.json({ message: "Welcome to the backend server of the E-Commerce App" });
 });
 
 // Connect to MongoDB using the database URL from environment variables
