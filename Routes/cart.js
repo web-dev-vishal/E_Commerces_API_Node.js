@@ -1,6 +1,6 @@
 import express from "express";
 import { addToCart, clearCart, decreaseProductQty, removeProductFromCart, userCart } from "../controllers/cart.js";
-import { isAuthenticated } from "../Middlewares/Auth.js";
+import { isAuthenticated } from "../middlewares/Auth.js";
 
 /**
  * Cart Router - Handles all cart-related API endpoints
