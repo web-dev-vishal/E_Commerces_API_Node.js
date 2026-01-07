@@ -1,10 +1,10 @@
 import express from "express";            // Express framework for creating the web server
 import mongoose from "mongoose";          // MongoDB object modeling tool
 import bodyParser from "express";         // For parsing incoming request bodies (NOTE: This should be 'body-parser', not 'express')
-import User from './Routes/user.js'; // Router for user-related endpoints
+import User from './routes/user.js'; // Router for user-related endpoints
 import { rateLimit } from 'express-rate-limit' // Rate limite to avoid the so many requeste
-import productRouter from './Routes/product.js' // Router for product-related endpoints
-import cartRouter from './Routes/cart.js' // Router for shopping cart functionality
+import productRouter from './routes/product.js' // Router for product-related endpoints
+import cartRouter from './routes/cart.js' // Router for shopping cart functionality
 
 // Import dotenv config function to load environment variables
 import { config } from "dotenv";

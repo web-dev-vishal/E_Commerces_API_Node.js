@@ -1,4 +1,4 @@
-import { Product } from "../Models/Product.js"
+import { Product } from "../models/product.js"
 
 /**
  * Controller to add a new product to the database

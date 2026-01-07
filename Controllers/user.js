@@ -1,4 +1,4 @@
-import { User } from "../Models/User.js";
+import { User } from "../models/User.js";
 import { sendOtpMail } from "../emailVerify/sendOtpMail.js";
 import { verifyMail } from "../emailVerify/verifyMail.js";
 import bcrypt from "bcryptjs";

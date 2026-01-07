@@ -1,4 +1,4 @@
-import { Cart } from "../Models/Cart.js";
+import { Cart } from "../models/Cart.js";
 /**
  * Controller to add products to a user's cart
  * Creates a new cart if one doesn't exist for the user
