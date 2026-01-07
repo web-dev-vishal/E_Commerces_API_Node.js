@@ -5,7 +5,7 @@ import {
   getAllProducts, 
   getProductById, 
   updateProductById 
-} from '../Controllers/Product.js';
+} from '../controllers/product.js';
 
 /**
  * Product Router - Handles all product-related API endpoints
