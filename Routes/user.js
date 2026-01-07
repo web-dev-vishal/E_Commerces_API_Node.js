@@ -1,27 +1,26 @@
-import express from 'express'
-import { login, register ,forgotPassword, verifyOTP ,changePassword } from '../controllers/user.js';
-
+import express from 'express';
+import { login, register, forgotPassword, verifyOTP, changePassword } from '../controllers/user.js';
 
 const router = express.Router();
 
-// register 
+// Register 
 // @api - /api/user/register
-router.post('/register',register)
+router.post('/register', register);
 
-// login 
+// Login 
 // @api - /api/user/login
-router.post('/login',login)
+router.post('/login', login);
 
-// verfiywithOTP
-// @api - /api/user/verifywithOTP
-router.post('/verifyOTP/:email',verifyOTP)
+// Verify with OTP
+// @api - /api/user/verifyOTP/:email
+router.post('/verifyOTP/:email', verifyOTP);
 
-// ForgetPassword
+// Forgot Password
 // @api - /api/user/forgotPassword
-router.post('/forgotPassword',forgotPassword)
+router.post('/forgotPassword', forgotPassword);
 
-// changePassword
-// @api - /api/user/changePassword
-router.post("/changePassword/:email",changePassword )
+// Change Password
+// @api - /api/user/changePassword/:email
+router.post('/changePassword/:email', changePassword);
 
 export default router;
